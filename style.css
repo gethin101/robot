@@ -42,13 +42,12 @@ main {
   margin-bottom: 15px;
 }
 .article img {
-  width: 60%;
+  width: 100%;
   max-width: 800px;
   height: auto;
   background-color: #eee;
   border: 1px solid #ccc;
-  margin: 0 auto 10px auto;
-  display: block;
+  margin-bottom: 10px;
 }
 .article video {
   width: 100%;
