@@ -9,11 +9,11 @@ body {
 
 /* White box wrapper */
 .page-wrapper {
-  max-width: 900px;          
+  max-width: 900px;    */ change it here for full with */      
   margin: 30px auto;
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: 0; /* let header/main/footer handle their own padding */
+  padding: 0;
 }
 
 header {
