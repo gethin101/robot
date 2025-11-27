@@ -1,46 +1,61 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #ffffff;
+  background-color: #e0e0e0; /* light grey strips */
   color: #000;
   margin: 0;
   padding: 0;
   line-height: 1.6;
 }
+
+/* White content box centered */
+header, main, footer {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff; /* white content area */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* subtle shadow for separation */
+}
+
 header {
   background-color: #0a1f44; /* navy blue */
   color: #fff;
   text-align: center;
   padding: 40px 10px 10px;
 }
+
 header h1 {
   font-size: 2.5em;
   margin: 0;
   letter-spacing: 1px;
 }
+
 .tagline {
   font-size: 1.1em;
   color: #ccc;
   margin-top: 10px;
 }
+
 main {
-  max-width: 900px;
-  margin: 0 auto;
   padding: 30px 20px;
 }
+
 .article {
   margin-bottom: 50px;
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
+
 .article h2 {
   font-size: 1.8em;
   color: #0a1f44;
   margin-bottom: 10px;
 }
+
 .article p {
   font-size: 1em;
   margin-bottom: 15px;
 }
+
 .article img {
   width: 100%;
   max-width: 800px;
@@ -49,11 +64,13 @@ main {
   border: 1px solid #ccc;
   margin-bottom: 10px;
 }
+
 .article video {
   width: 100%;
   max-width: 800px;
   margin-bottom: 10px;
 }
+
 footer {
   background-color: #0a1f44;
   color: #fff;
