@@ -9,7 +9,7 @@ body {
 
 /* White box wrapper for header, main, footer */
 .page-wrapper {
-  max-width: 1000px;           /* adjust this to make the white box narrower/wider */
+  max-width: 900px;           /* adjust this to make the white box narrower/wider */
   margin: 30px auto;
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
