@@ -67,14 +67,16 @@ main {
   border: 1px solid #ccc;
   margin-bottom: 10px;
 }
-
-/* Note box styling */
+  
 .note-box {
+  float: right;
+  width: 35%;
+  margin: -10px 0 20px 20px; /* top, right/left, bottom, left */
+  background-color: #f9f9f9;
   border: 2px solid black;
   padding: 15px;
-  background-color: #f9f9f9;
-  margin: 20px 0;
-}
+  box-sizing: border-box;
+ }
 
 /* Footer styling */
 footer {
