@@ -70,13 +70,14 @@ main {
   
 .note-box {
   float: right;
-  width: 35%;
-  margin: -10px 0 20px 20px; /* top, right/left, bottom, left */
+  width: 45%;                /* wider box */
+  margin: -40px 0 20px 20px; /* move up with negative top margin */
   background-color: #f9f9f9;
   border: 2px solid black;
   padding: 15px;
   box-sizing: border-box;
- }
+}
+
 
 /* Footer styling */
 footer {
