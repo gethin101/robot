@@ -70,7 +70,7 @@ main {
   
 .note-box {
   float: right;
-  width: 45%;                /* wider box */
+  width: 60%;                /* wider box */
   margin: 20px 0 20px 20px; /* move up with negative top margin */
   background-color: #f9f9f9;
   border: 2px solid black;
