@@ -9,7 +9,7 @@ body {
 
 /* White content box centered */
 header, main, footer {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   background-color: #ffffff; /* white content area */
   padding: 20px;
