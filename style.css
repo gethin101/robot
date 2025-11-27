@@ -9,7 +9,7 @@ body {
 
 /* White box wrapper */
 .page-wrapper {
-  max-width: 800px;           /* adjust width here */
+  max-width: 900px;          
   margin: 30px auto;
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
