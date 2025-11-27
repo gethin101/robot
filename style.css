@@ -7,20 +7,20 @@ body {
   line-height: 1.6;
 }
 
-/* White content box wrapping header, main, footer */
-header, main, footer {
-  max-width: 760px;         
-  margin: 0 auto;           
-  background-color: #ffffff; 
-  padding: 20px;
+/* White box wrapper */
+.page-wrapper {
+  max-width: 800px;           /* adjust width here */
+  margin: 30px auto;
+  background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 0; /* let header/main/footer handle their own padding */
 }
 
 header {
+  background-color: #0a1f44; /* navy blue */
+  color: #fff;
   text-align: center;
   padding: 40px 10px 10px;
-  background-color: #0a1f44; /* navy strip inside the white box */
-  color: #fff;
 }
 
 header h1 {
@@ -58,7 +58,7 @@ main {
 
 .article img {
   width: 100%;
-  max-width: 760px; /* keep images fitting inside */
+  max-width: 760px; 
   height: auto;
   background-color: #eee;
   border: 1px solid #ccc;
@@ -71,10 +71,17 @@ main {
   margin-bottom: 10px;
 }
 
+.note-box {
+  border: 2px solid black;
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin: 20px 0;
+}
+
 footer {
+  background-color: #0a1f44;
+  color: #fff;
   text-align: center;
   padding: 20px;
   font-size: 0.9em;
-  background-color: #0a1f44;
-  color: #fff;
 }
