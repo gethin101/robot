@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Robot Building Project</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Load model-viewer library -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
   <div class="page-wrapper">
@@ -22,32 +25,31 @@
         </video>
       </section>
 
-<section class="article">
-  <h2>Original Design</h2>
-  <p>We first sketched out the design of our robot in terms of components and general hardware placement.</p>
-  <p>This layout changed later on but it was a good starting point as it allowed us to visualise what setup we wanted and how it would realistically all come together.</p>
+      <section class="article">
+        <h2>Original Design</h2>
+        <p>We first sketched out the design of our robot in terms of components and general hardware placement.</p>
+        <p>This layout changed later on but it was a good starting point as it allowed us to visualise what setup we wanted and how it would realistically all come together.</p>
 
-  <img src="Robot sketch 1.jpg" alt="Placeholder for Robot sketch image" style="width: 60%; float: left; margin-right: 20px; margin-bottom: 10px;">
+        <img src="Robot sketch 1.jpg" alt="Placeholder for Robot sketch image" style="width: 60%; float: left; margin-right: 20px; margin-bottom: 10px;">
 
-  <div class="note-box">
-    <p><strong>Note:</strong> We used a breadboard so we could quickly make changes without having to solder.</p>
-  </div>
+        <div class="note-box">
+          <p><strong>Note:</strong> We used a breadboard so we could quickly make changes without having to solder.</p>
+        </div>
 
-  <h3><b><u>List of components:</u></b></h3>
-  <p><b>Raspberry Pi Pico 2 WH</b> - Processes commands & controls the robot</p>
-  <p><b>TT Motors x4</b> - Provides movement to the wheels</p>
-  <p><b>L298N Motor Drivers x2</b> - Controls speed & power of the motors</p>
-  <p><b>Servo Motor</b> - Used to move the axe to specific angles</p>
-  <p><b>433mhz Reciever</b> - Recieve wireless signals from the transmitter</p>
-  <p><b>6xAA Battery pack</b> - Provides power</p>
-  <p><b>Breadboard</b> - Connection point for all the components</p>
-  <p><b>Jumper Wires</b> - Connects components together</p>
-  <p><b>PLA Axe</b> - Main weapon for the robot</p>
+        <h3><b><u>List of components:</u></b></h3>
+        <p><b>Raspberry Pi Pico 2 WH</b> - Processes commands & controls the robot</p>
+        <p><b>TT Motors x4</b> - Provides movement to the wheels</p>
+        <p><b>L298N Motor Drivers x2</b> - Controls speed & power of the motors</p>
+        <p><b>Servo Motor</b> - Used to move the axe to specific angles</p>
+        <p><b>433mhz Receiver</b> - Receive wireless signals from the transmitter</p>
+        <p><b>6xAA Battery pack</b> - Provides power</p>
+        <p><b>Breadboard</b> - Connection point for all the components</p>
+        <p><b>Jumper Wires</b> - Connects components together</p>
+        <p><b>PLA Axe</b> - Main weapon for the robot</p>
 
-  <div style="clear: both;"></div>
-</section>
+        <div style="clear: both;"></div>
+      </section>
 
-      
       <section class="article">
         <h2>Breadboard Setup</h2>
         <p>[Describe your wiring, components, and microcontroller setup]</p>
@@ -70,7 +72,7 @@
       </section>
 
       <section class="article">
-        <h2>fusion 3d</h2>
+        <h2>Fusion 3D</h2>
         <p>[designing & printing in fusion / PLA]</p>
         <img src="placeholder.jpg" alt="Placeholder for scoring system image">
       </section>
@@ -79,6 +81,20 @@
         <h2>Future Ideas</h2>
         <p>[how could improve / do next time]</p>
         <img src="placeholder.jpg" alt="Placeholder for future ideas image">
+      </section>
+
+      <section class="article">
+        <h2>Fusion Embed</h2>
+        <p>Explore the 3D model of the robot chassis below:</p>
+
+        <!-- 3D Model Viewer -->
+        <model-viewer src="files/robot_chassis.glb" 
+                      alt="Robot Chassis 3D Model"
+                      auto-rotate 
+                      camera-controls 
+                      ar 
+                      style="width: 600px; height: 400px; border: 1px solid #ccc; border-radius: 8px;">
+        </model-viewer>
       </section>
     </main>
 
