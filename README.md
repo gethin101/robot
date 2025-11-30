@@ -1,2 +1,2 @@
 # robot 
-add stuff here for notes & stuff
+add stuff here for notes, etc
