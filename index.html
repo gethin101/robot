@@ -4,25 +4,21 @@
   <meta charset="UTF-8">
   <title>Robot Building Project</title>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Load model-viewer library -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
   <div class="page-wrapper">
-    <header>
-      <h1>Robot Building Project</h1>
-      <p class="tagline">Robotics & programming</p>
+    <header style="position: relative; background-color: #003366; color: white; padding: 40px 20px;">
+      <h1 style="margin: 0;">Robot Building Project</h1>
+      <p class="tagline" style="margin: 5px 0 20px;">Robotics & programming</p>
+      <nav style="position: absolute; bottom: 10px; left: 20px;">
+        <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
+          <li><a href="index.html" style="text-decoration: none; color: white; font-weight: bold;">Home</a></li>
+          <li><a href="projects.html" style="text-decoration: none; color: white; font-weight: bold;">Projects</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <nav style="background-color: #f0f0f0; padding: 10px; border-bottom: 2px solid #ccc;">
-      <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
-        <li><a href="index.html" style="text-decoration: none; color: #333; font-weight: bold;">Home</a></li>
-        <li><a href="projects.html" style="text-decoration: none; color: #333; font-weight: bold;">Projects</a></li>
-    </ul>
-    </nav>
-
-    
     <main>
       <section class="article">
         <h2>Video Demo</h2>
@@ -37,13 +33,10 @@
         <h2>Original Design</h2>
         <p>We first sketched out the design of our robot in terms of components and general hardware placement.</p>
         <p>This layout changed later on but it was a good starting point as it allowed us to visualise what setup we wanted and how it would realistically all come together.</p>
-
         <img src="Robot sketch 1.jpg" alt="Placeholder for Robot sketch image" style="width: 60%; float: left; margin-right: 20px; margin-bottom: 10px;">
-
         <div class="note-box">
           <p><strong>Note:</strong> We used a breadboard so we could quickly make changes without having to solder.</p>
         </div>
-
         <h3><b><u>List of components:</u></b></h3>
         <p><b>Raspberry Pi Pico 2 WH</b> - Processes commands & controls the robot</p>
         <p><b>TT Motors x4</b> - Provides movement to the wheels</p>
@@ -54,7 +47,6 @@
         <p><b>Breadboard</b> - Connection point for all the components</p>
         <p><b>Jumper Wires</b> - Connects components together</p>
         <p><b>PLA Axe</b> - Main weapon for the robot</p>
-
         <div style="clear: both;"></div>
       </section>
 
@@ -94,8 +86,7 @@
       <section class="article">
         <h2>Fusion Embed</h2>
         <p>Explore the 3D model of the robot chassis below:</p>
-
-     <model-viewer src="chassis_3d.glb"
+        <model-viewer src="chassis_3d.glb"
               alt="Robot Chassis 3D Model"
               auto-rotate
               camera-controls
@@ -103,7 +94,9 @@
               environment-image="neutral"
               exposure="1.2"
               style="width: 600px; height: 400px;">
-</model-viewer>
+        </model-viewer>
+      </section>
+    </main>
 
     <footer>
       <p>© gethin101 Robot Project 2025</p>
