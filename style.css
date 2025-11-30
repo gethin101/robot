@@ -51,11 +51,6 @@ nav a {
   font-weight: bold;
 }
 
-/* Active link styling (optional) */
-nav a.active {
-  text-decoration: underline; /* or leave empty if you want no difference */
-}
-
 
 /* Main content */
 main {
