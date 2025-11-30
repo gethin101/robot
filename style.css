@@ -51,10 +51,11 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover,
+/* Active link styling (optional) */
 nav a.active {
-  color: #ffcc00; /* highlight color */
+  text-decoration: underline; /* or leave empty if you want no difference */
 }
+
 
 /* Main content */
 main {
