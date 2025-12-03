@@ -94,20 +94,6 @@ main {
   box-sizing: border-box;
 }
 
-.filler-text {
-  margin: 20px auto;
-  max-width: 800px;
-  text-align: left;
-  padding: 10px;
-}
-
-.filler-text p {
-  font-size: 1.2em; /* Makes text slightly bigger */
-  margin-left: 20px; /* Indents the text */
-  line-height: 1.6;
-}
-
-
 
 footer {
   background-color: #0a1f44;
